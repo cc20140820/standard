@@ -1,0 +1,20 @@
+{
+  "name": "@nero/browserslist-config-standard",
+  "version": "0.1.1",
+  "description": "Sharing browserslist configurations",
+  "author": "daychongyang <chongyang.dai@aihuishou.com>",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "dev": "rollup -wc rollup.config.js",
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "pnpm build"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "license": "UNLICENSED"
+}
